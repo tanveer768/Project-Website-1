@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    background: rgba(0,0,0,20%) url("background.jpg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px ;
+    background-size: cover;
+    
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+}
+.list{
+    display: flex;
+    width: 80%;
+    list-style: none;
+    align-items: center;
+}
+.list li{
+
+}
+.list li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 40px;
+    font-size: 30px;
+    
+}
+.list li a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+.logo{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    border: 2px white;
+    border-radius: 50px;
+}
+.box{
+    width: 25%;
+    height: 500px;
+    padding: 5px ;
+    margin: 6px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.image{
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+}
+p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h2{
+    color: lavender;
+    font-style: bold;
+    text-shadow: 5px 4px 4px grey;
+    text-align: center;
+}
+.container2{
+    background-color: #EF9595;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px ;
+    background-size: cover;
+}
+.container3{
+    background-color:  #EFB495;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px ;
+    background-size: cover;
+}
+.container4{
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px ;
+    background-size: cover;
+}
+
+.paragraph{
+    font-weight: 600;
+    padding: 20px 20px;
+}
+.end{
+    list-style: none;
+    display: flex;
+    margin: 1px;
+    padding: 10px 10px;
+    justify-content: center;
+    background-color: #9E9FA5;
+    align-items: center;
+}
+.slide{
+    background-color: #FDE5EC;
+    height:700px ;
+    width: 98%;
+    box-shadow: 1px 2px 10px black;
+    align-items: center;
+    animation: slider 9s infinite linear ;
+    background-image: url("bokeh.jpg"); background-size: 100% 100%
+}
+@keyframes slider{
+    0%{background-image: url("bokeh.jpg"); background-size: 100% 100%;}
+    35%{background-image: url("fried.jpg"); background-size: 100% 100%}
+    65%{background-image: url("sushi5.jpg");    background-size: 100% 100%}
+}
+h1{
+    font-size: 2.0rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 35px;
+}
+.gallery{
+    background-color: black;
+    
+    display: inline;
+   
+    height: 80vh;
+    
+}
+.gallery_in{
+    display: flex;
+    border-radius: 5%;
+    padding: 2%;
+}
+.gallery_pic{
+    padding: 10px 10px;
+    
+}
+.gallery_head{
+    background-color: #D988B9;
+}
